@@ -183,6 +183,7 @@ double Mark1 =Double.parseDouble(mark1.getText());
     double Mark3 =Double.parseDouble(mark3.getText());
     double Mark4 =Double.parseDouble(mark4.getText());
     double average = (Mark1 + Mark2 + Mark3 + Mark4) /4;
+    average = average * 100;
     average = Math.round(average);
     average = average/100;
     displayLabel.setText("Average is " + average);        // TODO add your handling code here:
